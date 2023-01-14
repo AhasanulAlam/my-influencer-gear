@@ -198,6 +198,7 @@ header{
     height: auto;
     margin: 0 auto;
     padding-left: 32px;
+    margin-bottom: 100px;
 }
 .featured_products_image img{
     width: 404px;
@@ -218,7 +219,6 @@ header{
     color: #6C6C6C;
     margin-bottom: 16px;
 }
-
 .featured_btn{
     width: 155px;
     height: 44px;
@@ -227,5 +227,35 @@ header{
     font-weight: 700;
     font-size: 16px;
     color: #FFFFFF;
+}
+/* footer style */
+.footer_content{
+    display: flex;
+    flex-direction: column;
+    background-color: #0A0826;
+    align-items: center;
+    text-align: center;
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+}
+.footer_content_title{
+    font-weight: 700;
+    font-size: 24px;
+    color: #FFFFFF;
+    margin-top: 50px;
+}
+.footer_content_description{
+    font-family: 'Manrope', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    color: #D9DBE1;
+    margin-top: 3px;
+}
+.footer_social_icons{
+    display: flex;
+    gap: 16px;
+    margin-top: 17px;
+    margin-bottom: 50px;
 }
 

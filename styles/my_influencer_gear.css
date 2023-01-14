@@ -1,0 +1,11 @@
+/* self define global variables */
+:root{
+
+}
+/* global primary setting */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+

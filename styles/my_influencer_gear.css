@@ -189,5 +189,43 @@ header{
 .see_more_arrow{
     margin-left: 5px;
 }
+/* Featured Products style */
+.featured_products{
+    display: flex;
+    gap: 96px;
+    max-width: 1110px;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    padding-left: 32px;
+}
+.featured_products_image img{
+    width: 404px;
+    height: 270px;
+}
+.featured_products_content{
+    margin-top: 33px;
+}
+.featured_products_content_title{
+    font-weight: 700;
+    font-size: 35px;
+    color: #0A0826;
+    margin-bottom: 16px;
+}
+.featured_products_content_description{
+    font-weight: 700;
+    font-size: 16px;
+    color: #6C6C6C;
+    margin-bottom: 16px;
+}
 
+.featured_btn{
+    width: 155px;
+    height: 44px;
+    background-color: #E02C6D;
+    border: none;
+    font-weight: 700;
+    font-size: 16px;
+    color: #FFFFFF;
+}
 

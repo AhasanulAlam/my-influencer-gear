@@ -15,7 +15,6 @@ body{
 }
 /* nav style design  */
 nav{
-    /* background-color: red; */
     display: flex;   
     align-items: center;
     justify-content: space-between;
@@ -188,6 +187,11 @@ header{
 }
 .see_more_arrow{
     margin-left: 5px;
+    color: rgba(224, 44, 109, 0.87);
+}
+.see_more a{
+    text-decoration: none;
+    color: rgba(224, 44, 109, 0.87);
 }
 /* Featured Products style */
 .featured_products{
@@ -258,4 +262,28 @@ header{
     margin-top: 17px;
     margin-bottom: 50px;
 }
-
+/* Media Queries */
+@media only screen and (max-width: 767px) {
+    nav, .footer_content{
+        flex-direction: column;
+    }
+    header{
+        flex-direction: column-reverse;
+        text-align: center;
+        justify-items: center;
+        padding: 0  18px;
+    }
+    .eCom_logo{
+        flex-wrap: wrap;
+    }
+    .pop_coll_items{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .featured_products{
+        flex-direction: column-reverse;
+        text-align: center;
+        justify-items: center;
+        justify-content: center;
+        padding: 0  18px;
+    }
+}

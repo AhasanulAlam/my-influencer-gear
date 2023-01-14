@@ -115,5 +115,16 @@ header{
     padding: 44px;    
 }
 
+/* popular collection style */
+.popular_collection{
+display: flex;
+flex-direction: column;
+align-items: center;
+width: 100%;
+height: auto;
+}
+
+
+
 
 
